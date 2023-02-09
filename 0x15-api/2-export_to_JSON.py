@@ -27,7 +27,7 @@ if __name__ == '__main__':
                     lambda x: {
                         "task": x.get("title"),
                         "completed": x.get("completed"),
-                        "username": user_name
+                        "username": USERNAME
                     },
                     todos
                 ))
